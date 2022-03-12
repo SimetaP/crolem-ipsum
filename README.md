@@ -12,6 +12,6 @@ _Crolem ipsum is Lorem ipsum generator on Croatian language with quotes from mov
  * CSS (SCSS)
  * Javascript
 
-## Autor ✒️
+## Autor
 
  * [GitHub](https://github.com/simetap)
