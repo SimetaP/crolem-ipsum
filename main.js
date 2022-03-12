@@ -6,7 +6,7 @@ const numOfPar = document.getElementById('num-of-par');
 const loremResult = document.getElementById('li-text');
 const paraOrSent = document.getElementById('li-para-or-sent');
 
-// Kada se upiše druga vrijednost promijeni ju
+// Change the value
 numOfPar.addEventListener('input', e => {
     const currentValue = e.target.value;
 });
@@ -15,7 +15,7 @@ paraOrSent.addEventListener('input', e => {
 });
 
 
-// Klik na Generiraj će generirati trenutni broj random paragrafa
+// Generate button will generate
 form.addEventListener('submit', e => {
     e.preventDefault();
     const currentValue = numOfPar.value;
@@ -36,7 +36,7 @@ form.addEventListener('submit', e => {
     }, 800);
 });
 
-// Kopiranje teksta
+// Copy text with click of the button
 const copyButton = document.getElementById('li-copy-text');
 
 copyButton.addEventListener("click", function() {
